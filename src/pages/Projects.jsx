@@ -1,7 +1,72 @@
 import React from 'react'
-import { cardData } from './assets/cardData.jsx';
+import blooddonate from '../assets/blooddonate.png';
+import todo from '../assets/todo.png';
+import kanban from '../assets/kanban.png';
+import istore from '../assets/istore.png';
+import movies from '../assets/movies.png';
+import invoice from '../assets/invoice.png';
+
 
 const Projects = () => {
+   const cardData = [
+     {
+       id: 1,
+       title: "Blood-Donate Platform",
+       description: "A React app to find or donate blood.",
+       image: blooddonate,
+       githubUrl: "https://github.com/puspalal12/blooddonate",
+       liveUrl: "https://blooddonate-eight.vercel.app/",
+       tag: "React.js"
+     },
+   
+     {
+       id: 2,
+       title: "To-Do App",
+       description: "A todo app in javascript.",
+       image: todo,
+       githubUrl: "https://github.com/puspalal12/js-projects/tree/main/todo",
+       liveUrl: "https://js-projects-ruby-iota.vercel.app/",
+       tag: "Javascript"
+     },
+     {
+       id: 3,
+       title: "Kanban Board",
+       description: "Kanban Board to know the status of task.",
+       image: kanban,
+       githubUrl: "https://github.com/puspalal12/js-projects/tree/main/kanban",
+       liveUrl: "https://js-projects-qjpa.vercel.app/",
+       tag: "Javascript"
+     },
+     {
+       id: 4,
+       title: "I-Store Ecommerce",
+       description: "E-Commerce app on React Js.",
+       image: istore,
+       githubUrl: "https://github.com/puspalal12/i-store",
+       liveUrl: "https://i-store-ten.vercel.app/",
+       tag: "ReactJs"
+     }, 
+     {
+       id: 5,
+       title: "Movies App",
+       description: "Movies App to view rating using API.",
+       image: movies,
+       githubUrl: "https://github.com/puspalal12/js-projects/tree/main/moviesRating",
+       liveUrl: "https://js-projects-ctph.vercel.app/",
+       tag: "JavaScript"
+     }, 
+       {
+       id: 6,
+       title: "Invoice Generator",
+       description: "Generate Invoice and download pdf.",
+       image: invoice,
+       githubUrl: "https://github.com/puspalal12/js-projects/tree/main/invoice",
+       liveUrl: "https://js-projects-xof4.vercel.app/",
+       tag: "JavaScript"
+     },
+     // ... duplicate for other projects
+   ];
+
   return (
     <>
       <h1 data-aos="flip-down" data-aos-easing="linear"
