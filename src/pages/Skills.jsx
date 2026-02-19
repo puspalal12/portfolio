@@ -55,7 +55,7 @@ const Skills = () => {
 
              
               <span data-aos="fade-left" data-aos-easing="linear"
-                data-aos-duration="500" className="text-sm  uppercase tracking-wider text-slate-500 group-hover:text-blue-600 transition-colors">
+                data-aos-duration="500" className="text-sm overflow-hidden  uppercase tracking-wider text-slate-500 group-hover:text-blue-600 transition-colors">
                 {skill.title}
               </span>
             </div>
