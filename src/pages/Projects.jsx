@@ -1,10 +1,10 @@
 import React from 'react'
-import blooddonate from '../assets/blooddonate.png';
-import todo from '../assets/todo.png';
-import kanban from '../assets/kanban.png';
-import istore from '../assets/istore.png';
-import movies from '../assets/movies.png';
-import invoice from '../assets/invoice.png';
+// import blooddonate from '../assets/blooddonate.png';
+// import todo from '../assets/todo.png';
+// import kanban from '../assets/kanban.png';
+// import istore from '../assets/istore.png';
+// import movies from '../assets/movies.png';
+// import invoice from '../assets/invoice.png';
 
 
 const Projects = () => {
@@ -13,7 +13,7 @@ const Projects = () => {
        id: 1,
        title: "Blood-Donate Platform",
        description: "A React app to find or donate blood.",
-       image: {blooddonate},
+       image: "/images/blooddonate.png",
        githubUrl: "https://github.com/puspalal12/blooddonate",
        liveUrl: "https://blooddonate-eight.vercel.app/",
        tag: "React.js"
@@ -23,7 +23,7 @@ const Projects = () => {
        id: 2,
        title: "To-Do App",
        description: "A todo app in javascript.",
-       image: {todo},
+       image: "/images/todo.png",
        githubUrl: "https://github.com/puspalal12/js-projects/tree/main/todo",
        liveUrl: "https://js-projects-ruby-iota.vercel.app/",
        tag: "Javascript"
@@ -32,7 +32,7 @@ const Projects = () => {
        id: 3,
        title: "Kanban Board",
        description: "Kanban Board to know the status of task.",
-       image: kanban,
+       image: "/images/kanban.png",
        githubUrl: "https://github.com/puspalal12/js-projects/tree/main/kanban",
        liveUrl: "https://js-projects-qjpa.vercel.app/",
        tag: "Javascript"
@@ -41,7 +41,7 @@ const Projects = () => {
        id: 4,
        title: "I-Store Ecommerce",
        description: "E-Commerce app on React Js.",
-       image: istore,
+       image: "/images/istore.png",
        githubUrl: "https://github.com/puspalal12/i-store",
        liveUrl: "https://i-store-ten.vercel.app/",
        tag: "ReactJs"
@@ -50,7 +50,7 @@ const Projects = () => {
        id: 5,
        title: "Movies App",
        description: "Movies App to view rating using API.",
-       image: movies,
+       image: "/images/movies.png",
        githubUrl: "https://github.com/puspalal12/js-projects/tree/main/moviesRating",
        liveUrl: "https://js-projects-ctph.vercel.app/",
        tag: "JavaScript"
@@ -59,7 +59,7 @@ const Projects = () => {
        id: 6,
        title: "Invoice Generator",
        description: "Generate Invoice and download pdf.",
-       image: invoice,
+       image: "/images/invoice.png",
        githubUrl: "https://github.com/puspalal12/js-projects/tree/main/invoice",
        liveUrl: "https://js-projects-xof4.vercel.app/",
        tag: "JavaScript"
