@@ -3,18 +3,18 @@ import React from 'react';
 const Skills = () => {
  
   const skills = [
-    { id: 1, title: "HTML", image: "./src/assets/html.png" },
-    { id: 2, title: "CSS", image: "./src/assets/css.png" },
-    { id: 3, title: "JavaScript", image: "./src/assets/js.png" },
-    { id: 4, title: "React", image: "./src/assets/react.png" },
-    { id: 5, title: "Tailwind", image: "./src/assets/tailwind.png" },
-    { id: 6, title: "git", image: "./src/assets/git.png" },
-    { id: 7, title: "github", image: "./src/assets/github.png" },
-    { id: 8, title: "mysql", image: "./src/assets/mysql.png" },
-    { id: 9, title: "ms sql", image: "./src/assets/mssql.png" },
-    { id: 10, title: "php", image: "./src/assets/php.png" },
-    { id: 11, title: "basic seo", image: "./src/assets/seo.png" },
-    { id: 12, title: "wordpress", image: "./src/assets/wordpress.png" },
+    { id: 1, title: "HTML", image: "../assets/html.png" },
+    { id: 2, title: "CSS", image: "../assets/css.png" },
+    { id: 3, title: "JavaScript", image: "../assets/js.png" },
+    { id: 4, title: "React", image: "../assets/react.png" },
+    { id: 5, title: "Tailwind", image: "../assets/tailwind.png" },
+    { id: 6, title: "git", image: "../assets/git.png" },
+    { id: 7, title: "github", image: "../assets/github.png" },
+    { id: 8, title: "mysql", image: "../assets/mysql.png" },
+    { id: 9, title: "ms sql", image: "../assets/mssql.png" },
+    { id: 10, title: "php", image: "../assets/php.png" },
+    { id: 11, title: "basic seo", image: "../assets/seo.png" },
+    { id: 12, title: "wordpress", image: "../assets/wordpress.png" },
   ];
 
   return (
