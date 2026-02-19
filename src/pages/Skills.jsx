@@ -1,20 +1,32 @@
 import React from 'react';
+import html from "../assets/html.png"
+import css from "../assets/css.png"
+import js from "../assets/js.png"
+import react from "../assets/react.png"
+import tailwind from "../assets/tailwind.png"
+import git from "../assets/git.png"
+import github from "../assets/github.png"
+import mysql from "../assets/mysql.png"
+import mssql from "../assets/mssql.png"
+import php from "../assets/php.png"
+import seo from "../assets/seo.png"
+import wordpress from "../assets/wordpress.png"
 
 const Skills = () => {
  
   const skills = [
-    { id: 1, title: "HTML", image: "../assets/html.png" },
-    { id: 2, title: "CSS", image: "../assets/css.png" },
-    { id: 3, title: "JavaScript", image: "../assets/js.png" },
-    { id: 4, title: "React", image: "../assets/react.png" },
-    { id: 5, title: "Tailwind", image: "../assets/tailwind.png" },
-    { id: 6, title: "git", image: "../assets/git.png" },
-    { id: 7, title: "github", image: "../assets/github.png" },
-    { id: 8, title: "mysql", image: "../assets/mysql.png" },
-    { id: 9, title: "ms sql", image: "../assets/mssql.png" },
-    { id: 10, title: "php", image: "../assets/php.png" },
-    { id: 11, title: "basic seo", image: "../assets/seo.png" },
-    { id: 12, title: "wordpress", image: "../assets/wordpress.png" },
+    { id: 1, title: "HTML", image: html },
+    { id: 2, title: "CSS", image: css },
+    { id: 3, title: "JavaScript", image: js },
+    { id: 4, title: "React", image: react },
+    { id: 5, title: "Tailwind", image: tailwind },
+    { id: 6, title: "git", image: git },
+    { id: 7, title: "github", image: github },
+    { id: 8, title: "mysql", image: mysql },
+    { id: 9, title: "ms sql", image: mssql },
+    { id: 10, title: "php", image: php },
+    { id: 11, title: "basic seo", image: seo },
+    { id: 12, title: "wordpress", image: wordpress },
   ];
 
   return (
