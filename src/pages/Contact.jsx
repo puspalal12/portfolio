@@ -8,8 +8,8 @@ const Contact = () => {
       id: 1,
       icon: <FaEnvelope className="text-blue-600" />,
       label: "Email",
-      value: "puspalalchaudhary86@gmail.com",
-      link: "mailto:puspalalchaudhary86@gmail.com",
+      value: "puspalal139@gmail.com",
+      link: "mailto:puspalal139@gmail.com",
     },
     {
       id: 2,
@@ -57,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-xs  text-slate-400 uppercase tracking-widest">{detail.label}</p>
-                    <p className="text-[0.65rem] overflow-hidden text-slate-700">{detail.value}</p>
+                    <p className="text-sm overflow-hidden text-slate-700">{detail.value}</p>
                   </div>
                 </a>
               ))}
