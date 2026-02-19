@@ -13,7 +13,7 @@ const Projects = () => {
        id: 1,
        title: "Blood-Donate Platform",
        description: "A React app to find or donate blood.",
-       image: blooddonate,
+       image: {blooddonate},
        githubUrl: "https://github.com/puspalal12/blooddonate",
        liveUrl: "https://blooddonate-eight.vercel.app/",
        tag: "React.js"
@@ -23,7 +23,7 @@ const Projects = () => {
        id: 2,
        title: "To-Do App",
        description: "A todo app in javascript.",
-       image: todo,
+       image: {todo},
        githubUrl: "https://github.com/puspalal12/js-projects/tree/main/todo",
        liveUrl: "https://js-projects-ruby-iota.vercel.app/",
        tag: "Javascript"
