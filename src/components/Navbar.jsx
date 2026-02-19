@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='fixed bottom-1 inset-x-0 flex justify-center z-50'>
+      <div className='fixed bottom-1 inset-x-0 flex justify-center z-50 max-w-6xl mx-auto'>
         <div className='bg-gray-900 bg-opacity-15 backdrop-blur-md px-6 py-3 rounded-full flex items-center gap-8 border border-white/10 shadow-2xl'>
           
           <NavLink to="/" className={navLinkStyles}>

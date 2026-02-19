@@ -57,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-xs  text-slate-400 uppercase tracking-widest">{detail.label}</p>
-                    <p className="text-lg text-slate-700">{detail.value}</p>
+                    <p className="text-xs text-slate-700">{detail.value}</p>
                   </div>
                 </a>
               ))}
